@@ -1,9 +1,0 @@
-[user]
-email = lucasdumer@gmail.com
-name = Lucas Dumer
-
-[core]
-filemode = false
-
-[diff]
-tool = vim -d 
