@@ -6,6 +6,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
+Plug 'mhartington/oceanic-next'
 
 call plug#end()
 
@@ -17,6 +18,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set termguicolors
 
 nnoremap <f2> :NERDTreeToggle<cr>
 nnoremap <c-p> :Files<cr>
@@ -41,3 +43,5 @@ vmap <c-x> d
 vmap <c-v> p
 vmap <c-c> y
 
+syntax enable
+colorscheme OceanicNext
