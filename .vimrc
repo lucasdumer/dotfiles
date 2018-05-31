@@ -6,7 +6,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
-Plug 'roxma/nvim-completion-manager'
 
 call plug#end()
 
