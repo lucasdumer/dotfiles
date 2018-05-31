@@ -13,6 +13,10 @@ set hidden
 set number
 set nowrap
 set inccommand=split
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
 
 nnoremap <f2> :NERDTreeToggle<cr>
 nnoremap <c-p> :Files<cr>
