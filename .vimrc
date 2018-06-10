@@ -23,8 +23,9 @@ set termguicolors
 nnoremap <f2> :NERDTreeToggle<cr>
 nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
-nnoremap <c-s> :w<cr>
 nnoremap <c-r> :%s/
+nnoremap <c-s> :w<cr>
+inoremap <c-s> :w<cr>
 
 nnoremap <c-z> :undo<cr>
 inoremap <c-z> <esc>:undo<cr>
