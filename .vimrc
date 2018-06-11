@@ -25,7 +25,7 @@ nnoremap <c-p> :Files<cr>
 nnoremap <c-f> :Ag<space>
 nnoremap <c-r> :%s/
 nnoremap <c-s> :w<cr>
-inoremap <c-s> :w<cr>
+inoremap <c-s> <esc>:w<cr>a
 
 nnoremap <c-z> :undo<cr>
 inoremap <c-z> <esc>:undo<cr>
