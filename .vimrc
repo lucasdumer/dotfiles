@@ -19,6 +19,7 @@ set softtabstop=4
 set shiftwidth=4
 set expandtab
 set termguicolors
+set clipboard=unnamedplus
 
 nnoremap <f2> :NERDTreeToggle<cr>
 nnoremap <c-p> :Files<cr>
