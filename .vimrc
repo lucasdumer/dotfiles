@@ -29,9 +29,9 @@ inoremap <c-p> <esc>:Files<cr>
 vnoremap <c-p> <esc>:Files<cr>
 
 "Pesquisa de texto nos arquivos
-nnoremap <c-f> :Ag<space>
-inoremap <c-f> <esc>:Ag<space>
-vnoremap <c-f> <esc>:Ag<space>
+nnoremap <c-a-f> :Ag<space>
+inoremap <c-a-f> <esc>:Ag<space>
+vnoremap <c-a-f> <esc>:Ag<space>
 
 "Substituir texto no arquivo :%s/texto_pesquisa/texto_novo
 nnoremap <c-r> :%s/
