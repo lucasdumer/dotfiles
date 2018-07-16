@@ -21,7 +21,15 @@ set expandtab
 set termguicolors
 set clipboard=unnamedplus
 
+"Abre a tree
 nnoremap <f2> :NERDTreeToggle<cr>
+inoremap <f2> <esc>:NERDTreeToggle<cr>
+vnoremap <f2> <esc>:NERDTreeToggle<cr>
+
+"Recarrega os arquivo da tree
+nnoremap <f5> :call NERDTreeReload()<cr>
+inoremap <f5> <esc>:call NERDTreeReload()<cr>
+vnoremap <f5> <esc>:call NERDTreeReload()<cr>
 
 "Pesquisa de arquivos
 nnoremap <c-p> :Files<cr>
@@ -83,3 +91,8 @@ imap <S-Right> <Esc>v<Right>
 
 syntax enable
 colorscheme OceanicNext
+
+fun! NERDTreeReload()
+    :NERDTreeFocus
+    call feedkeys("R")
+endf
