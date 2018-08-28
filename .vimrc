@@ -6,7 +6,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'sheerun/vim-polyglot'
 Plug 'jiangmiao/auto-pairs'
-Plug 'mhartington/oceanic-next'
+Plug 'drewtempelmeyer/palenight.vim'
 
 call plug#end()
 
@@ -20,6 +20,11 @@ set shiftwidth=4
 set expandtab
 set termguicolors
 set clipboard=unnamedplus
+set background=dark
+set encoding=utf-8
+
+syntax enable
+colorscheme palenight
 
 "Abre a tree
 nnoremap <f2> :NERDTreeToggle<cr>
@@ -88,9 +93,6 @@ imap <S-Up> <Esc>v<Up>
 imap <S-Down> <Esc>v<Down>
 imap <S-Left> <Esc>v<Left>
 imap <S-Right> <Esc>v<Right>
-
-syntax enable
-colorscheme OceanicNext
 
 fun! NERDTreeReload()
     :NERDTreeFocus
